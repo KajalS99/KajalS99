@@ -80,7 +80,7 @@ Analyzed track metadata to identify factors that influence Spotify track popular
 #### 📌 Heart Disease Prediction (Coming Soon)
 > Classification problem using health records to predict cardiovascular disease risk, using Decision Trees and Logistic Regression.
 
-#### 📌 Reservation Management System (PHP + MySQL)
+#### 📌 [Reservation Management System (PHP + MySQL)](https://github.com/KajalS99/RecSync)
 > Built a backend prototype for a facility reservation platform — involving queries, validation logic, and system design based on SAD principles.
 
 ---
