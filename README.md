@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Kajal Singh (she/her)
 
-🎓 Data Analyst | 📊 Visual Thinker | 🎶 Music Explorer | 💬 Empathy-Driven Problem Solver
+🎓 Data/ Business Analyst | 📊 Visual Thinker | 🎶 Music Explorer | 💬 Empathy-Driven Problem Solver
 
 ---
 
