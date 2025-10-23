@@ -4,54 +4,60 @@
 
 ---
 
-I'm a student of **Data Analytics at Douglas College (Vancouver)** with a background in **International Business Management**. I apply my skills in Python, SQL, R, and visualization tools to clean, analyze, and model data — and transform numbers into narratives.
+## About
+Early-career data analytics professional specializing in applied machine learning and computer vision. I design reproducible workflows, convert raw data into reliable features, build and evaluate models using defensible methodology, and communicate results for decision-making.
+
+- Interests: computer vision, classification, feature engineering, model evaluation  
+- Tools: Python, SQL, TensorFlow/Keras, scikit-learn, XGBoost, Pandas, Matplotlib/Seaborn, Tableau  
+- Looking for: entry-level data/ML roles where I can keep learning by shipping real, production-minded analyses and models
 
 ---
 
 ### 🔧 Skills & Technical Competencies
 
 #### 🧠 Core Data Skills
-- **Data Cleaning & Wrangling:**  
-  - Remove duplicates, handle missing values, standardize formats  
-  - Use Python (`pandas`, `numpy`) and SQL to prepare real-world messy data  
-  - Experience working on time series, music data, healthcare, and business datasets
+- **Data Cleaning & Wrangling:**
+  - De-duplication, missing-value strategies, type/format standardization
+  - Python (`pandas`, `numpy`) and SQL for joining, reshaping, and validation
+  - Hands-on with time series, music analytics, healthcare-style tabular, and image datasets
 
-- **Exploratory Data Analysis (EDA):**  
-  - Histograms, boxplots, heatmaps, and interactive dashboards to surface key trends  
-  - Feature correlations, grouping, segmentation, and cohort-based analysis
+- **Exploratory Data Analysis (EDA):**
+  - Histograms/boxplots/heatmaps; distribution and bias checks (class/brightness/size for images)
+  - Correlations, group-by segmentation, cohorts; clear, reproducible visuals
 
-- **Data Modeling & Machine Learning:**  
-  - **Classification Models:** Logistic Regression, Decision Trees, Random Forest, Naive Bayes  
-  - **Boosting:** XGBoost (with hyperparameter tuning)  
-  - **Model Evaluation:** Confusion Matrix, ROC-AUC, Cross-validation, Precision-Recall  
-  - **Feature Engineering & Selection:** Domain-specific feature choices and transformation
+- **Data Modeling & Machine Learning:**
+  - **Classical ML:** Logistic Regression, Decision Trees, Random Forest, Naive Bayes
+  - **Boosting:** XGBoost (basic tuning, early stopping)
+  - **Computer Vision:** Transfer learning with **MobileNetV2**; **convolutional autoencoder** embeddings → RF/XGBoost
+  - **Evaluation:** Confusion matrix, per-class metrics, ROC-AUC, cross-validation, stratified splits, class imbalance awareness
+  - **Feature Engineering & Selection:** Domain-specific transforms; PCA/t-SNE for inspection on embeddings
 
 #### 🛠️ Languages, Tools & Frameworks
-- **Languages:** Python, SQL (MySQL, MS SQL Server), R, C#, HTML/CSS  
-- **Libraries/Frameworks:** Scikit-learn, XGBoost, Pandas, NumPy, Seaborn, Matplotlib, Plotly, ggplot2  
-- **Environments:** Jupyter Notebook, Google Colab, RStudio, VS Code, Visual Studio, Anaconda  
-- **Version Control:** Git, GitHub — branching, merging, pull requests, and documentation
+- **Languages:** Python, SQL (MySQL, MS SQL Server), R, C#, HTML/CSS
+- **Libraries/Frameworks:** TensorFlow/Keras, scikit-learn, XGBoost, Pandas, NumPy, Seaborn, Matplotlib, Plotly
+- **Environments:** Jupyter Notebook, Google Colab, VS Code, Visual Studio, Anaconda
+- **Version Control:** Git & GitHub — branching, pull requests, clean READMEs and repo structure
 
 #### 📈 Business Intelligence & Data Visualization
-- **Tools:** Tableau, Power BI, Excel (Advanced, Power Query, PivotTables)  
-- **Design Practices:** Clean charting, filterable dashboards, storytelling with KPIs, usability-first UX  
-- **Creative Storytelling:** WordClouds, Canva visuals, flowcharts, and infographics
+- **Tools:** Tableau, Power BI, Excel (advanced formulas, Power Query, PivotTables)
+- **Design Practices:** Clean charting, filterable dashboards, KPI storytelling, usability-first UX
+- **Creative Storytelling:** Word clouds, Canva visuals, process flowcharts, and infographics
 
 ---
 
 ### 🧩 Data Architecture & Systems
 
 #### 📊 Databases & Query Optimization
-- Advanced **SQL** with subqueries, joins, views, transactions  
-- **Relational Algebra** for schema-level understanding  
-- **MongoDB (NoSQL):** Schema-less modeling, document-based queries, aggregation pipelines  
-- **Data Modeling:** ERDs, normalization, relationship design (1NF, 2NF, 3NF)
+- Advanced **SQL**: complex joins, CTEs, window functions, subqueries, views, transactions
+- **Performance**: indexing strategy, `EXPLAIN`/query plans, denormalization trade-offs
+- **Data Modeling**: ERDs, normalization (1NF/2NF/3NF), referential integrity
+- **MongoDB (NoSQL)**: schema-less design, aggregation pipelines, `$lookup` joins for hybrid patterns
 
 #### 🖥️ Systems Design & Integration
-- **System Analysis & Design (SAD):** Use case diagrams, data flow diagrams (DFD), process modeling  
-- **Software Development Concepts:** SDLC, OOP in C#, and working prototypes in academic environments  
-- Experience building **Reservation Management Systems** using MySQL + PHP  
-- Prototyped **Music Recommendation Engines** and **Classification Models** from scratch
+- **System Analysis & Design (SAD)**: use cases, DFDs, process modeling, requirements traceability
+- **Software Development Concepts**: SDLC fundamentals, OOP (C#/Python), modular design, version control (Git)
+- Built a **Reservation Management System** (MySQL + PHP): CRUD workflows, validation, and reporting
+- Prototyped **music recommendation/classification** flows end-to-end (data ingestion → features → model → evaluation)
 
 ---
 
@@ -63,6 +69,10 @@ I'm a student of **Data Analytics at Douglas College (Vancouver)** with a backgr
 - **Music Analytics & Listener Behavior:**  
   Designed end-to-end workflows with Spotify datasets (EDA → ML modeling → dashboard/reporting)
 
+- **Environmental / Weather Vision:**  
+  Image-based weather classification for operational awareness and safety use-cases.  
+  Projects: **MobileNetV2 transfer learning** and **Autoencoder → RF/XGBoost** pipelines, with clear evaluation (confusion matrix, per-class metrics, t-SNE).
+
 - **Healthcare Data:**  
   Applied ML for predicting disease presence, understanding patient trends
 
@@ -73,17 +83,35 @@ I'm a student of **Data Analytics at Douglas College (Vancouver)** with a backgr
 
 ### 🚀 Projects
 
-#### 📌 [Spotify Analytics Project](https://github.com/KajalS99/Spotify-Analytics-Project)
-> Full pipeline: Data Cleaning → EDA → Classification Models  
-Analyzed track metadata to identify factors that influence Spotify track popularity using logistic regression, XGBoost, and ensemble models.
+### 🗂 Featured Projects (New)
 
-#### 📌 Heart Disease Prediction (Coming Soon)
-> Classification problem using health records to predict cardiovascular disease risk, using Decision Trees and Logistic Regression.
+#### 🌦️ Weather Image Classification — MobileNetV2 (Transfer Learning)
+- End-to-end CNN pipeline: EDA (class/brightness), training-only augmentation, label smoothing, cosine LR fine-tuning  
+- Clear evaluation with confusion matrix + per-class report  
+**Repo:** https://github.com/KajalS99/weather_image_classification
 
-#### 📌 [Reservation Management System (PHP + MySQL)](https://github.com/KajalS99/RecSync)
-> Built a backend prototype for a facility reservation platform — involving queries, validation logic, and system design based on SAD principles.
+#### 🌦️ Weather Image Classification — Autoencoder + Classical ML
+- Convolutional autoencoder for feature learning → embeddings used by Random Forest & XGBoost  
+- Lightweight, interpretable pipeline with t-SNE visualization and standard metrics  
+**Repo:** https://github.com/KajalS99/weather_image_classification-autoencoder-ml
+
+#### 🎵 Apple Music Genre Prediction — Metadata-Only Case Study
+- Feature engineering on track metadata; baselines and boosted trees (RF/ExtraTrees/XGBoost) with cross-validation  
+- Reproducible notebook, figures, and a clear README  
+**Repo:** https://github.com/KajalS99/apple-music-genre-prediction
+
+#### 🎧 Spotify Analytics (EDA + ML)
+- Exploratory analysis and modeling on Spotify track features; tidy, reproducible Jupyter workflow  
+**Repo:** https://github.com/KajalS99/Spotify-Analytics-Project
 
 ---
+
+## Other Work
+
+- **Reservation Management System (PHP + MySQL):** backend prototype with queries, validation logic, and SAD artifacts.  
+  Repo: https://github.com/KajalS99/RecSync
+
+- **Heart Disease Prediction (upcoming):** classification on health records (LogReg / Trees) with careful evaluation and feature handling.
 
 ### 🎯 Currently Applying To:
 - Co-op internships in **data analytics**, **BI**, and **machine learning**
