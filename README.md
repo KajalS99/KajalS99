@@ -93,7 +93,7 @@ Early-career data analytics professional specializing in applied machine learnin
 #### 🌦️ Weather Image Classification — Autoencoder + Classical ML
 - Convolutional autoencoder for feature learning → embeddings used by Random Forest & XGBoost  
 - Lightweight, interpretable pipeline with t-SNE visualization and standard metrics  
-**Repo:** https://github.com/KajalS99/weather_image_classification-autoencoder-ml
+**Repo:** https://github.com/KajalS99/weather_image_classification_autoencoder
 
 #### 🎵 Apple Music Genre Prediction — Metadata-Only Case Study
 - Feature engineering on track metadata; baselines and boosted trees (RF/ExtraTrees/XGBoost) with cross-validation  
